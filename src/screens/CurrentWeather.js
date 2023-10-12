@@ -69,19 +69,22 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   tempStyles: {
-    color: "black",
+    color: "white",
     fontSize: 48,
+    marginTop: 5
   },
   feels: {
-    color: "black",
+    color: "white",
     fontSize: 30,
+    marginTop: 10
   },
   highLow: {
-    color: "black",
+    color: "white",
     fontSize: 20,
   },
   highLowWrapper: {
     flexDirection: "row",
+    marginTop: 5
   },
   bodyWrapper: {
     justifyContent: "flex-end",
@@ -90,10 +93,12 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   description: {
-    fontSize: 43
+    fontSize: 43,
+    color: "white"
   },
   message: {
-    fontSize: 25
+    fontSize: 25,
+    color: "white"
   },
 });
 export default CurrentWeather;

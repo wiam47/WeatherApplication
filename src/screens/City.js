@@ -34,7 +34,7 @@ const City = ({weatherData}) => {
         <View style={[populationWrapper, rowLayout]}>
           <IconText
             iconName={"user"}
-            iconColor={"red"}
+            iconColor={"white"}
             bodyText={`Population: ${population}`}
             bodyTextStyles={populationText}
           />
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
   },
   img: {
     flex: 1,
+    justifyContent: "center"
   },
   city: {
     fontSize: 40,
@@ -85,7 +86,7 @@ const styles = StyleSheet.create({
   populationText: {
     fontSize: 25,
     marginLeft: 7.5,
-    color: "red",
+    color: "white",
   },
   riseSetWrapper: {
     justifyContent: "space-around",

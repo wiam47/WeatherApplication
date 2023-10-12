@@ -32,8 +32,8 @@ const styles = StyleSheet.create({
       flexDirection: "row",
       justifyContent: "space-around",
       alignItems: "center",
-      borderWidth: 5,
-      backgroundColor: "indianred",
+      borderWidth: 2,
+      backgroundColor: "lightpink",
     },
     temp: {
       color: "white",
